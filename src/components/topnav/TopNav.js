@@ -10,7 +10,7 @@ import userMenu from '../../assets/jsonData/user_menus.json'
 import userImage from '../../assets/images/hung.jpg'
 
 const curr_user = {
-	display_name: 'VanHung',
+	display_name: 'Văn Hùng',
 	image: userImage,
 }
 
