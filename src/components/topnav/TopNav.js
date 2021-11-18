@@ -49,13 +49,13 @@ const Topnav = () => {
 	return (
 		<div className='topnav'>
 			<div className='topnav__left'>
+				<div className='topnav__left__button'>
+					<AiOutlineMenu />
+				</div>
 				<div className='topnav__left__logo'>
 					<Link to='/'>
 						<img src={logo} alt='logo' />
 					</Link>
-				</div>
-				<div className='topnav__left__button'>
-					<AiOutlineMenu />
 				</div>
 			</div>
 			<div className='topnav__right'>
