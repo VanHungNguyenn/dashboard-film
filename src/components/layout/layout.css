@@ -1,0 +1,13 @@
+.layout {
+    color: var(--txt-color);
+}
+
+.layout__content {
+    display: flex;
+    background-color: var(--second-bg);
+}
+
+.layout__content-main {
+    padding: 30px;
+    flex-grow: 1;
+}
