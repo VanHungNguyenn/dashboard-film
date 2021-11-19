@@ -2,11 +2,11 @@
     display: flex;
     position: relative;
     width: 250px;
-    flex-direction: columns;
+    flex-direction: column;
     padding: 20px 10px;
     background-color: var(--main-bg);
     box-shadow: var(--box-shadow);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .sidebar__search {
@@ -26,6 +26,7 @@
     height: 100%;
     width: 100%;
     padding: 6px 35px 6px 10px;
+
     font-size: 1rem;
     border-radius: var(--border-radius);
     color: var(--txt-color);
@@ -37,4 +38,8 @@
     position: absolute;
     right: 10px;
     cursor: pointer;
+}
+
+.sidebar__navigation {
+    margin-top: 30px;
 }

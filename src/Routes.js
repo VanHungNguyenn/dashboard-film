@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Article from './pages/Article'
-import Decentralization from './pages/Decentralization'
+import Admin from './pages/Admin'
 import Feedback from './pages/Feedback'
 import Film from './pages/Film'
 import Image from './pages/Image'
@@ -20,7 +20,7 @@ const Routes = () => {
 			<Route path='/image' component={Image} />
 			<Route path='/feedback' component={Feedback} />
 			<Route path='/language' component={Language} />
-			<Route path='/decentralization' component={Decentralization} />
+			<Route path='/admin' component={Admin} />
 			<Route path='/setting' component={Setting} />
 		</Switch>
 	)

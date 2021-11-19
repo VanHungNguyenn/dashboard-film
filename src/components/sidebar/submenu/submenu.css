@@ -1,0 +1,45 @@
+.sidebar__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    font-size: 1rem;
+}
+
+.sidebar__item {
+    display: flex;
+    align-items: center;
+}
+
+
+.sidebar__label {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__subnav {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__dropdown__link {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    height: 50px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.sidebar__dropdown__item {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__dropdown__label {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
