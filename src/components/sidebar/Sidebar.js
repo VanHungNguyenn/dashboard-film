@@ -1,6 +1,6 @@
 import React from 'react'
 import './sidebar.css'
-import sidebarData from './sidebarData'
+import sidebarData from '../../assets/data/sidebarData'
 import SubMenu from './submenu/SubMenu'
 
 const Sidebar = () => {

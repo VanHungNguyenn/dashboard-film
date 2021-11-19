@@ -53,7 +53,7 @@ const Topnav = () => {
 					<AiOutlineMenu />
 				</div>
 				<div className='topnav__left__logo'>
-					<Link to='/'>
+					<Link to='/overview'>
 						<img src={logo} alt='logo' />
 					</Link>
 				</div>

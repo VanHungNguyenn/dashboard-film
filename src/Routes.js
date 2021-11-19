@@ -13,7 +13,7 @@ import Setting from './pages/Setting'
 const Routes = () => {
 	return (
 		<Switch>
-			<Route path='/' exact component={Overview} />
+			<Route path='/overview' component={Overview} />
 			<Route path='/film' component={Film} />
 			<Route path='/article' component={Article} />
 			<Route path='/page' component={Page} />
