@@ -6,7 +6,7 @@
     padding: 20px 10px;
     background-color: var(--main-bg);
     box-shadow: var(--box-shadow);
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
 }
 
 .sidebar__search {
