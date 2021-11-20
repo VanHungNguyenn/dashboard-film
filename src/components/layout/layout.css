@@ -5,6 +5,7 @@
 .layout__content {
     display: flex;
     background-color: var(--second-bg);
+    min-height: calc(100% - 50px);
 }
 
 .layout__content-main {

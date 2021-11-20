@@ -1,12 +1,13 @@
 .sidebar {
     display: flex;
     position: relative;
-    width: 250px;
+    min-width: 250px;
     flex-direction: column;
     padding: 20px 10px;
     background-color: var(--main-bg);
     box-shadow: var(--box-shadow);
     min-height: calc(100vh - 50px);
+    /* display: none; */
 }
 
 .sidebar__search {

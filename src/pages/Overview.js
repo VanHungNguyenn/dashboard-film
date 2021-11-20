@@ -21,7 +21,7 @@ const Overview = () => {
 							return (
 								<div
 									key={i}
-									className='col-3 col-xl-4 col-lg-6 col-md-12'
+									className='col-6 col-lg-4 col-xl-3'
 								>
 									{/* status card here */}
 									<StatusCard

@@ -1,10 +1,10 @@
 import React from 'react'
-import Pagination from '../components/pagination/Pagination'
+import DataTable from '../components/datatable/DataTable'
 
 const Page = () => {
 	return (
 		<>
-			<Pagination />
+			<DataTable />
 		</>
 	)
 }
