@@ -1,7 +1,12 @@
 import React from 'react'
+import PaginatedItems from '../components/Hello/pagination'
 
 const Language = () => {
-	return <div>Language</div>
+	return (
+		<div>
+			<PaginatedItems itemsPerPage={2} />
+		</div>
+	)
 }
 
 export default Language

@@ -10,9 +10,9 @@ const Sidebardata = [
 	},
 	{
 		title: 'Film',
-		path: '/film',
+		// path: '/film',
 		icon: <AiIcons.AiFillHome />,
-		iconClosed: <AiIcons.AiFillCaretLeft />,
+		iconClosed: <AiIcons.AiFillCaretRight />,
 		iconOpened: <AiIcons.AiFillCaretDown />,
 		subnav: [
 			{

@@ -10,6 +10,10 @@
     /* display: none; */
 }
 
+.sidebar.hide {
+    display: none;
+}
+
 .sidebar__search {
     position: relative;
     height: 40px;

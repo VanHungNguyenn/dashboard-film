@@ -3,9 +3,9 @@ import './sidebar.css'
 import sidebarData from '../../assets/data/sidebarData'
 import SubMenu from './submenu/SubMenu'
 
-const Sidebar = () => {
+const Sidebar = ({ hideSidebar }) => {
 	return (
-		<div className='sidebar'>
+		<div className={`sidebar ${hideSidebar ? 'hide' : ''}`}>
 			<div className='sidebar__search'>
 				<input type='text' placeholder='Search here...' />
 				<i className='bx bx-search'></i>

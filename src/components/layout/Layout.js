@@ -7,15 +7,22 @@ import Topnav from '../topnav/TopNav'
 import './layout.css'
 
 const Layout = () => {
+	const [hideSidebar, setHideSidebar] = useState(false)
+
 	return (
 		<BrowserRouter>
 			<Route
 				render={(props) => {
 					return (
 						<div className='layout'>
-							<Topnav />
+							<Topnav
+								setHideSidebar={(boolean) =>
+									setHideSidebar(boolean)
+								}
+								hideSidebar={hideSidebar}
+							/>
 							<div className='layout__content'>
-								<Sidebar />
+								<Sidebar hideSidebar={hideSidebar} />
 								<div className='layout__content-main'>
 									<Routes />
 								</div>

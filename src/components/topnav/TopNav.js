@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './topnav.css'
 import logo from '../../assets/images/vanhunglogo.png'
@@ -45,11 +45,18 @@ const renderUserMenu = (item, i) => {
 	)
 }
 
-const Topnav = () => {
+const Topnav = ({ setHideSidebar, hideSidebar }) => {
+	const handleHideSidebar = () => {
+		setHideSidebar(!hideSidebar)
+	}
+
 	return (
 		<div className='topnav'>
 			<div className='topnav__left'>
-				<div className='topnav__left__button'>
+				<div
+					className='topnav__left__button'
+					onClick={handleHideSidebar}
+				>
 					<AiOutlineMenu />
 				</div>
 				<div className='topnav__left__logo'>

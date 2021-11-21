@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 import Article from './pages/Article'
 import Admin from './pages/Admin'
 import Feedback from './pages/Feedback'
@@ -13,7 +13,7 @@ import Setting from './pages/Setting'
 const Routes = () => {
 	return (
 		<Switch>
-			<Route path='/overview' component={Overview} />
+			<Route path='/overview/' component={Overview} />
 			<Route path='/film' component={Film} />
 			<Route path='/article' component={Article} />
 			<Route path='/page' component={Page} />
@@ -22,6 +22,9 @@ const Routes = () => {
 			<Route path='/language' component={Language} />
 			<Route path='/admin' component={Admin} />
 			<Route path='/setting' component={Setting} />
+			<Route path='/' exact>
+				<Redirect to='/overview' />
+			</Route>
 		</Switch>
 	)
 }

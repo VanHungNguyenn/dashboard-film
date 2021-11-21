@@ -10,7 +10,7 @@ const SubMenu = ({ item }) => {
 	return (
 		<>
 			<Link
-				to={item.path}
+				to={item.path ? item.path : '#'}
 				className='sidebar__link'
 				onClick={item.subnav && showSubnav}
 			>
