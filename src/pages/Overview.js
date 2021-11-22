@@ -1,18 +1,25 @@
 import React from 'react'
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
+
 import statusCards from '../assets/jsonData/status-card-data.json'
 import StatusCard from '../components/status-card/StatusCard'
-import Breadcrumb1 from '../components/Breadcrumb/Breadcrumb'
+import Breadcrumb from '../components/Breadcrumb/Breadcrumb'
+
+const breadcrumb = [
+	{
+		name: 'Home',
+		path: '/',
+	},
+	{
+		name: 'Overview',
+		path: '/overview',
+		active: true,
+	},
+]
+
 const Overview = () => {
 	return (
 		<>
-			{/* <Breadcrumb>
-				<Breadcrumb.Item href='/overview'>Home</Breadcrumb.Item>
-				<Breadcrumb.Item href='/overview' active>
-					Overview
-				</Breadcrumb.Item>
-			</Breadcrumb> */}
-			<Breadcrumb1 mang={['Home', 'Overview', 'Hello']} />
+			<Breadcrumb breadcrumb={breadcrumb} />
 			<div className='row'>
 				<div className='col-12'>
 					<div className='row'>

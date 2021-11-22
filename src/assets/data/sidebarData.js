@@ -12,7 +12,7 @@ const Sidebardata = [
 		title: 'Film',
 		// path: '/film',
 		icon: <AiIcons.AiFillHome />,
-		iconClosed: <AiIcons.AiFillCaretRight />,
+		iconClosed: <AiIcons.AiFillCaretLeft />,
 		iconOpened: <AiIcons.AiFillCaretDown />,
 		subnav: [
 			{
@@ -27,7 +27,7 @@ const Sidebardata = [
 			},
 			{
 				title: 'Country',
-				path: '/film/contry',
+				path: '/film/country',
 				icon: <IoIcons.IoIosPaper />,
 			},
 			{
@@ -59,7 +59,7 @@ const Sidebardata = [
 	},
 	{
 		title: 'Article',
-		path: '/article',
+		// path: '/article',
 		icon: <AiIcons.AiFillHome />,
 		iconClosed: <AiIcons.AiFillCaretLeft />,
 		iconOpened: <AiIcons.AiFillCaretDown />,
@@ -103,7 +103,7 @@ const Sidebardata = [
 	},
 	{
 		title: 'Admin',
-		path: '/admin',
+		// path: '/admin',
 		icon: <AiIcons.AiFillHome />,
 		iconClosed: <AiIcons.AiFillCaretLeft />,
 		iconOpened: <AiIcons.AiFillCaretDown />,
@@ -127,7 +127,7 @@ const Sidebardata = [
 	},
 	{
 		title: 'Setting',
-		path: '/setting',
+		// path: '/setting',
 		icon: <AiIcons.AiFillHome />,
 		iconClosed: <AiIcons.AiFillCaretLeft />,
 		iconOpened: <AiIcons.AiFillCaretDown />,

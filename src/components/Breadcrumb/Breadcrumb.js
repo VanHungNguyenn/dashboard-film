@@ -1,26 +1,25 @@
 import React from 'react'
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import './breadcrumb.css'
 
-const Breadcrumb1 = ({ mang }) => {
-	console.log(mang)
-
+const BreadcrumbComponent = ({ breadcrumb }) => {
 	return (
 		<>
 			<Breadcrumb>
-				{mang.map((item, i) => {
+				{breadcrumb.map((item, i) => {
 					return (
-						<Breadcrumb.Item href={`/${item}`}>
-							{item}
+						<Breadcrumb.Item
+							key={i}
+							href={`${item.path}`}
+							active={item.active ? true : false}
+						>
+							{item.name}
 						</Breadcrumb.Item>
 					)
 				})}
-				{/* <Breadcrumb.Item href='/overview'>Home</Breadcrumb.Item>
-				<Breadcrumb.Item href='/overview' active>
-					Overview
-				</Breadcrumb.Item> */}
 			</Breadcrumb>
 		</>
 	)
 }
 
-export default Breadcrumb1
+export default BreadcrumbComponent

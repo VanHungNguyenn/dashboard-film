@@ -1,11 +1,22 @@
 import React from 'react'
-import PaginatedItems from '../components/Hello/pagination'
+import Breadcrumb from '../components/Breadcrumb/Breadcrumb'
+
+const breadcrumb = [
+	{
+		name: 'Home',
+		path: '/',
+	},
+	{
+		name: 'Language',
+		path: '/language',
+	},
+]
 
 const Language = () => {
 	return (
-		<div>
-			<PaginatedItems itemsPerPage={2} />
-		</div>
+		<>
+			<Breadcrumb breadcrumb={breadcrumb} />
+		</>
 	)
 }
 

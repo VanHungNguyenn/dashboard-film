@@ -5,10 +5,11 @@
 .layout__content {
     display: flex;
     background-color: var(--second-bg);
-    min-height: calc(100% - 50px);
+    min-height: calc(100vh - 50px);
 }
 
 .layout__content-main {
     padding: 20px;
     flex-grow: 1;
+    min-height: calc(100vh - 50px);
 }

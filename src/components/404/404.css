@@ -1,0 +1,18 @@
+.heading-404, .noti-404 {
+    text-align: center;
+}
+
+.heading-404 {
+    margin: 20% 0 5% 0;
+    font-size: 10rem;
+}
+
+.noti-404 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.button-404 {
+    display: flex;
+    justify-content: center;
+}
